@@ -33,3 +33,17 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# --- MathFlow web app -------------------------------------------------------
+node_modules/
+dist/
+coverage/
+.env
+.env.local
+.env.*.local
+*.tsbuildinfo
+.vite/
+playwright-report/
+test-results/
+npm-debug.log*
+.DS_Store

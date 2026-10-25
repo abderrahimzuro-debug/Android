@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "MathFlow — maths that flows",
+  "short_name": "MathFlow",
+  "description": "Step-by-step maths with exact local calculations, interactive graphs and optional image recognition. Works offline.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f6f2e9",
+  "theme_color": "#0b1f31",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Solve a problem", "short_name": "Solve", "url": "/?view=solve", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Graph a function", "short_name": "Graph", "url": "/?view=graph", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Scan a problem", "short_name": "Scan", "url": "/?view=scan", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
